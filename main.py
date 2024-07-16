@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video = (r'C:\\Users\\ryant\Downloads\\video.mp4')
+video = ("video.mp4")
 cap=cv2.VideoCapture(video)
 
 object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=400)
